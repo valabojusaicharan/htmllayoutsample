@@ -1,0 +1,87 @@
+<head>
+  <title> HTML LAYOUT SAMPLE</title>
+  <link rel="icon" href="LOGO 1.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    * {
+  box-sizing: border-box;
+  }
+
+    header{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: rgb(151, 216, 247);
+      color: rgb(255, 255, 255);
+
+    }
+    nav {
+         float: left;
+         width: 30%;
+         height: 500px;
+         background: rgb(203, 133, 224);
+         padding: 20px;
+    }
+    nav ul{
+      list-style-type: none;
+      padding: 0;
+      cursor: pointer;
+    }
+    section::after {
+      content: "";
+        display: table;
+       clear: both;
+    }
+    article{
+      float: left;
+      padding: 30px;
+      width: 50%;
+      background-color: #cfe28b;
+      height: 500px;
+
+    }
+    aside{
+      padding-left: 0;
+      float: right;
+      width: 20%;
+      height: 500px;
+
+    }
+    footer{
+      background-color: rgb(228, 89, 147);
+  padding: 10px;
+  text-align: center;
+  color: white;
+    }
+  </style>
+</head>
+
+<body>
+<header><h1 style="text-align: center;">Aakruti Software Solutins</h1></header>
+<section>
+<nav>
+  <ul>
+    <li><a href="http://aakrutisolutions.com/" target="_blank">HOME</a></li>
+    <li><a href="#">PRODUCTS</a></li>
+    <li><a href="#">SERVICES</a></li>
+    <li><a href="#">ABOUT</a></li>
+  </ul>
+</nav>
+<aside>
+  <iframe src="Colorful International Youth Day Flyer.jpg" width="360px" height="500px"></iframe>
+</aside>
+<article>
+  <h1>HOME</h1>
+ <blockquote>
+  <p style="background-color: #cfe28b;">Aakruti Software Solutions Pvt. Ltd. is one of the leading web solutions and services providers in Telangana state. Based in Hyderabad, We have a wide variety of clients ranges from various sectors. As the name Aakruti suggests/indicates that we build/develop/shape your prima structure thoughts into a complete web based solutions.</p>
+</blockquote> 
+</article>
+</section>
+
+<footer>
+<p>
+  "Good Web Design for my website. They are worthy offshore development web Design Company who is dedicated to what they say and deliver. I have about 6 more website development for them ongoing"
+</p>
+</footer>
+
+
+</body>
